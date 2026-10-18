@@ -1,0 +1,15 @@
+{
+	"permissions": {
+		"allow": [
+			"Bash(npx tsx:*)"
+		],
+		"deny": [
+			"Read(.env)",
+            "Read(.env.local)",
+            "Read(.env.production)"
+		],
+        "ask": [
+            "Bash(git push:*)"
+        ]
+	}
+}
